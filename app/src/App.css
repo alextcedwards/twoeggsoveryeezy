@@ -1,0 +1,211 @@
+body {
+  background-color: #ffd3d9;
+  height: auto;
+}
+
+img {
+  width: 30%;
+}
+
+.imgcontainer {
+  padding: -50%;
+}
+
+.main-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 300px;
+}
+
+.textcontainer {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.box {
+  width: 300px;
+  margin: 50px auto;
+  background: white;
+  padding: 20px;
+  text-align: center;
+  font-weight: 900;
+  color: black;
+  font-family: arial;
+  position: relative;
+}
+
+.sb1:before {
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border-left: 10px solid transparent;
+  border-right: 10px solid white;
+  border-top: 10px solid white;
+  border-bottom: 10px solid transparent;
+  left: -19px;
+  top: 6px;
+}
+
+.button {
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+  padding: 6px 20px;
+  margin: 0;
+  cursor: pointer;
+  border: 1px solid #bbb;
+  overflow: visible;
+  font: bold 13px arial, helvetica, sans-serif;
+  text-decoration: none;
+  white-space: nowrap;
+  color: #555;
+
+  background-color: #ddd;
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(rgba(255, 255, 255, 1)),
+    to(rgba(255, 255, 255, 0))
+  );
+  background-image: -webkit-linear-gradient(
+    top,
+    rgba(255, 255, 255, 1),
+    rgba(255, 255, 255, 0)
+  );
+  background-image: -moz-linear-gradient(
+    top,
+    rgba(255, 255, 255, 1),
+    rgba(255, 255, 255, 0)
+  );
+  background-image: -ms-linear-gradient(
+    top,
+    rgba(255, 255, 255, 1),
+    rgba(255, 255, 255, 0)
+  );
+  background-image: -o-linear-gradient(
+    top,
+    rgba(255, 255, 255, 1),
+    rgba(255, 255, 255, 0)
+  );
+  background-image: linear-gradient(
+    top,
+    rgba(255, 255, 255, 1),
+    rgba(255, 255, 255, 0)
+  );
+
+  -webkit-transition: background-color 0.2s ease-out;
+  -moz-transition: background-color 0.2s ease-out;
+  -ms-transition: background-color 0.2s ease-out;
+  -o-transition: background-color 0.2s ease-out;
+  transition: background-color 0.2s ease-out;
+  background-clip: padding-box; /* Fix bleeding */
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.3), 0 2px 2px -1px rgba(0, 0, 0, 0.5),
+    0 1px 0 rgba(255, 255, 255, 0.3) inset;
+  -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.3),
+    0 2px 2px -1px rgba(0, 0, 0, 0.5), 0 1px 0 rgba(255, 255, 255, 0.3) inset;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.3), 0 2px 2px -1px rgba(0, 0, 0, 0.5),
+    0 1px 0 rgba(255, 255, 255, 0.3) inset;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.9);
+
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.button:hover {
+  background-color: #eee;
+  color: #555;
+}
+
+.button:active {
+  background: #e9e9e9;
+  position: relative;
+  top: 1px;
+  text-shadow: none;
+  -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3) inset;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3) inset;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3) inset;
+}
+
+.button[disabled],
+.button[disabled]:hover,
+.button[disabled]:active {
+  border-color: #eaeaea;
+  background: #fafafa;
+  cursor: default;
+  position: static;
+  color: #999;
+  /* Usually, !important should be avoided but here it's really needed :) */
+  -moz-box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  text-shadow: none !important;
+}
+
+/* Smaller buttons styles */
+
+.button.small {
+  padding: 4px 12px;
+}
+
+.button.blue {
+  color: #fff;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.2);
+
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(rgba(255, 255, 255, 0.3)),
+    to(rgba(255, 255, 255, 0))
+  );
+  background-image: -webkit-linear-gradient(
+    top,
+    rgba(255, 255, 255, 0.3),
+    rgba(255, 255, 255, 0)
+  );
+  background-image: -moz-linear-gradient(
+    top,
+    rgba(255, 255, 255, 0.3),
+    rgba(255, 255, 255, 0)
+  );
+  background-image: -ms-linear-gradient(
+    top,
+    rgba(255, 255, 255, 0.3),
+    rgba(255, 255, 255, 0)
+  );
+  background-image: -o-linear-gradient(
+    top,
+    rgba(255, 255, 255, 0.3),
+    rgba(255, 255, 255, 0)
+  );
+  background-image: linear-gradient(
+    top,
+    rgba(255, 255, 255, 0.3),
+    rgba(255, 255, 255, 0)
+  );
+}
+
+.button.blue {
+  background-color: #269ce9;
+  border-color: #269ce9;
+}
+
+.button.blue:hover {
+  background-color: #70b9e8;
+}
+
+.button.blue:active {
+  background: #269ce9;
+}
