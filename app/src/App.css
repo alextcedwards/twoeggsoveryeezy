@@ -1,6 +1,5 @@
 body {
   background-color: #ffd3d9;
-  height: auto;
 }
 
 img {
@@ -15,7 +14,10 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 300px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  left: 12vw;
 }
 
 .textcontainer {
