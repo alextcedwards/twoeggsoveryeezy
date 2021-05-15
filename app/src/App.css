@@ -211,3 +211,9 @@ img {
 .button.blue:active {
   background: #269ce9;
 }
+
+.fa-twitter {
+  color: #1da1f2;
+  text-decoration: none;
+  cursor: none;
+}

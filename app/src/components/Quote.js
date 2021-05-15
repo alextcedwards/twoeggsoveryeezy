@@ -20,7 +20,10 @@ const Quote = (props) => {
       <img src={Kanye} alt="" />
 
       <div className="textcontainer">
-        <div className="box sb1">"{props.kanye}"</div>
+        <div className="box sb1">
+          "{props.kanye}"<br />
+          <a href="#" class="fa fa-twitter"></a>
+        </div>
 
         <div>
           <button
