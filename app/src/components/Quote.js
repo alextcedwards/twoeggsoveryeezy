@@ -23,7 +23,7 @@ const Quote = (props) => {
       <div className="textcontainer">
         <div className="box sb1">
           "{props.kanye}"<br />
-          <a href="#" class="fa fa-twitter"></a>
+          <a href="/" class="fa fa-twitter"> </a>
         </div>
 
         <div>
