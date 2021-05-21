@@ -5,6 +5,7 @@ import { fetchData } from "../store";
 import Kanye from "../images/Kanye.jpg";
 
 const Quote = (props) => {
+  console.log(props);
   const { fetchData } = props;
 
   useEffect(() => {
